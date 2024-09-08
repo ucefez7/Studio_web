@@ -21,7 +21,7 @@ export function WorkStation() {
             onClick={() => handleTabClick(1)}
             className={activeTab === 1 ? "active" : ""}
           >
-            Danney
+            Harsha
             <a target="_blank" href="https://danneytrieu.design/">
               <MdOutlineOpenInNew />
             </a>
@@ -30,7 +30,7 @@ export function WorkStation() {
             onClick={() => handleTabClick(2)}
             className={activeTab === 2 ? "active" : ""}
           >
-            Sean
+            Ucefez
             <a target="_blank" href="https://seantai.dev/">
               <MdOutlineOpenInNew />
             </a>
@@ -39,7 +39,7 @@ export function WorkStation() {
             onClick={() => handleTabClick(3)}
             className={activeTab === 3 ? "active" : ""}
           >
-            Jane
+            Adhil
             <a target="_blank" href="https://jane-moroz-dev.netlify.app/">
               <MdOutlineOpenInNew />
             </a>

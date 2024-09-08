@@ -23,13 +23,10 @@ function Board(props) {
           <div className="board">
             <p className="board-title">Our Stacks:</p>
             <ul className="board-list">
+              <li>Flutter</li>
               <li>React</li>
-              <li>React-fiber</li>
-              <li>Fiber-drei</li>
-              <li>Threatre</li>
-              <li>Framer-motion</li>
-              <li>Zustand</li>
-              <li>Leva</li>
+              <li>Node.js</li>
+              <li>Gaming Studio</li>
               <li>Vite</li>
             </ul>
           </div>

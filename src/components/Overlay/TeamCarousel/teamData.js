@@ -1,62 +1,53 @@
 // Team data
 const teamData = [
   {
-    name: "Shivam",
+    name: "Ucefez",
     image: "/images/cx.png",
     links: [
-      { title: "linkedin", link: "https://t.me/tech_overflow" },
-      { title: "github", link: "https://t.me/tech_overflow" },
+      { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
+      { title: "github", link: "https://github.com/ucefez7" },
       { title: "twitter", link: "https://t.me/tech_overflow" },
-      { title: "portfolio", link: "https://t.me/tech_overflow" },
+      { title: "portfolio", link: "https://ucefez7.github.io/Portfolio-Ucefez/" },
     ],
   },
   {
-    name: "DEV",
+    name: "HarSar",
     image: "/images/zx1.png",
     links: [
-      { title: "linkedin", link: "https://t.me/tech_overflow" },
-      { title: "github", link: "https://t.me/tech_overflow" },
+      { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
+      { title: "github", link: "https://github.com/ucefez7" },
       { title: "twitter", link: "https://t.me/tech_overflow" },
-      { title: "portfolio", link: "https://t.me/tech_overflow" },
+      { title: "portfolio", link: "https://ucefez7.github.io/Portfolio-Ucefez/" },
     ],
   },
   {
     name: "Janvi",
     image: "/images/gh.jpg",
     links: [
-      {
-        title: "linkedin",
-        link: "https://t.me/tech_overflow",
-      },
-      { title: "github", link: "https://t.me/tech_overflow" },
+      { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
+      { title: "github", link: "https://github.com/ucefez7" },
       { title: "twitter", link: "https://t.me/tech_overflow" },
-      { title: "portfolio", link: "https://t.me/tech_overflow" },
+      { title: "portfolio", link: "https://ucefez7.github.io/Portfolio-Ucefez/" },
     ],
   },
   {
-    name: "Anubhav",
+    name: "Harsha",
     image: "/images/zx2.PNG",
     links: [
-      {
-        title: "linkedin",
-        link: "https://t.me/tech_overflow",
-      },
-      { title: "github", link: "https://t.me/tech_overflow" },
+      { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
+      { title: "github", link: "https://github.com/ucefez7" },
       { title: "twitter", link: "https://t.me/tech_overflow" },
-      { title: "portfolio", link: "https://t.me/tech_overflow" },
+      { title: "portfolio", link: "https://ucefez7.github.io/Portfolio-Ucefez/" },
     ],
   },
   {
-    name: "Aman",
+    name: "Adhil",
     image: "/images/zx3.PNG",
     links: [
-      {
-        title: "linkedin",
-        link: "https://t.me/tech_overflow",
-      },
-      { title: "github", link: "https://t.me/tech_overflow" },
+      { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
+      { title: "github", link: "https://github.com/ucefez7" },
       { title: "twitter", link: "https://t.me/tech_overflow" },
-      { title: "portfolio", link: "https://t.me/tech_overflow" },
+      { title: "portfolio", link: "https://ucefez7.github.io/Portfolio-Ucefez/" },
     ],
   },
 ];

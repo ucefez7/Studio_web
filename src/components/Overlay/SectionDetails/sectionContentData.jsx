@@ -8,7 +8,7 @@ const sectionsContentData = [
     title: "About us",
     content: (
       <p>
-        Welcome to our 3D portfolio, created by techoverflows. This experience helped us boost our confidence and develop our
+        Welcome to our 3D portfolio, created by HarSar Innovations. This experience helped us boost our confidence and develop our
         soft and technical skills, gearing us up for future challenges. Check it
         out and witness the amazing outcome of our teamwork! 📱✨🎉
       </p>
