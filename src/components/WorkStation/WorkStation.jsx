@@ -17,7 +17,7 @@ export function WorkStation() {
         occlude={true}
       >
         <div className="browser-tab">
-          <button
+          {/* <button
             onClick={() => handleTabClick(1)}
             className={activeTab === 1 ? "active" : ""}
           >
@@ -30,7 +30,7 @@ export function WorkStation() {
             onClick={() => handleTabClick(2)}
             className={activeTab === 2 ? "active" : ""}
           >
-            Ucefez
+            HarSar Harsha
             <a target="_blank" href="https://seantai.dev/">
               <MdOutlineOpenInNew />
             </a>
@@ -43,7 +43,7 @@ export function WorkStation() {
             <a target="_blank" href="https://jane-moroz-dev.netlify.app/">
               <MdOutlineOpenInNew />
             </a>
-          </button>
+          </button> */}
         </div>
         <iframe title={`project ${activeTab}`} src={getIframeSource()} />
       </Html>
@@ -69,13 +69,10 @@ export function WorkStation() {
   const getIframeSource = () => {
     switch (activeTab) {
       case 1:
-        return "https://danneytrieu.design/";
-      case 2:
-        return "https://seantai.dev/";
-      case 3:
-        return "https://jane-moroz-dev.netlify.app/";
+        return "https://vishvaam.harsar.in/";
+      
       default:
-        return "https://danneytrieu.design/";
+        return "https://vishvaam.harsar.in/";
     }
   };
 

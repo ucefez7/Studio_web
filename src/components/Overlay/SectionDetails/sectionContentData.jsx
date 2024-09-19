@@ -8,38 +8,26 @@ const sectionsContentData = [
     title: "About us",
     content: (
       <p>
-        Welcome to our 3D portfolio, created by HarSar Innovations. This experience helped us boost our confidence and develop our
-        soft and technical skills, gearing us up for future challenges. Check it
-        out and witness the amazing outcome of our teamwork! 📱✨🎉
+       "Unleashing Imagination: Building Next-Level Metaverse's and Games with Immersive Tech".
       </p>
     ),
   },
   { key: "team", title: "Our team", content: <TeamCarousel /> },
   {
     key: "credits",
-    title: "Credits",
+    title: "Contact Us",
     content: (
       <ul className="credits">
         <li>
-          <a href="https://www.chingu.io/">Member1</a>
+          <a href="https://www.chingu.io/">Hyderabad,Telangana 500080</a>
         </li>
         <li>
-          <a href="https://threejs-journey.com/">Member2</a>
+          <a href="https://threejs-journey.com/">9581002852</a>
         </li>
         <li>
-          <a href="https://poly.pizza">Member3</a>
+          <a href="https://poly.pizza">studios@harsar.in</a>
         </li>
-        <li>
-          <a href="https://www.syntystudios.com">Memer4</a>
-        </li>
-        <li>
-          <a href="https://streakbyte.com">Member5</a>
-        </li>
-        <li>
-          <a href="https://t.me/tech_overflow">
-            More Credits
-          </a>
-        </li>
+       
       </ul>
     ),
   },

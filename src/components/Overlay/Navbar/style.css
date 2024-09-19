@@ -85,3 +85,57 @@ button.active {
     display: none;
   }
 }
+
+
+.footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  /* background: linear-gradient(
+    132deg,
+    rgba(27, 33, 30, 0.85) 0%,
+    rgba(25, 37, 30, 0.85) 100%
+  ); */
+  font-size: 0.2rem;
+  color: #555;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+/* .logo{
+  position: fixed;
+  top: 0;
+  left: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.logo img{
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+} */
+
+
+.logo{
+  position: fixed;
+  top: 0;
+  left: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.logo img{
+  width: 70%;
+  height: 70%;
+  display: block;
+  margin: auto;
+  margin-top: 16px;
+}

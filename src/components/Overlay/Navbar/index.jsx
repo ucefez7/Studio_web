@@ -17,10 +17,10 @@ import {
 // Nav list
 const navList = [
   { title: "about", icon: <HiOutlineBookOpen />, position: 0.7 },
-  { title: "team", icon: <HiOutlineUsers />, position: 2.1 },
+  { title: "board", icon: <HiOutlineUsers />, position: 2.1 },
   { title: "stack", icon: <HiOutlineChip />, position: 6.7 },
   { title: "portfolio", icon: <HiOutlineDesktopComputer />, position: 7.8 },
-  { title: "credits", icon: <HiOutlineCollection />, position: 9 },
+  { title: "connect", icon: <HiOutlineCollection />, position: 9 },
 ];
 
 // Mobile Nav
@@ -63,58 +63,64 @@ const Navbar = () => {
   };
 
   return (
-    <header className="header">
-      <div className="container">
-        <nav className="navigation">
-          {/* Sections navigation */}
-          <ul>
-            {navList.map((navItem, index) => (
-              <li key={`${index}-navLink`}>
+    <>
+      <header className="header">
+        <div className="container">
+          <nav className="navigation">
+            <div className="logo">
+              <img src="public/images/White copy.png" alt="" />
+            </div>
+            {/* Sections navigation */}
+            <ul>
+              {navList.map((navItem, index) => (
+                <li key={`${index}-navLink`}>
+                  <button
+                    className={`${activeNav === navItem.title && "active"}`}
+                    onMouseEnter={() => updateCursorType("hover")}
+                    onMouseLeave={() => updateCursorType("pointer")}
+                    onClick={() =>
+                      handleNavBtnClick(navItem.title, navItem.position)
+                    }
+                  >
+                    {navItem.title}
+                  </button>
+                </li>
+              ))}
+            </ul>
+
+            {/* Theme toggler & Sound Level Control */}
+            <ul>
+              <li>
                 <button
-                  className={`${activeNav === navItem.title && "active"}`}
+                  className={`sound_control ${soundLevel == 0 && "no-sound"}`}
+                  aria-label="sound level control"
                   onMouseEnter={() => updateCursorType("hover")}
                   onMouseLeave={() => updateCursorType("pointer")}
                   onClick={() =>
-                    handleNavBtnClick(navItem.title, navItem.position)
+                    toggleSoundControlVisibility(!soundControlIsVisible)
                   }
                 >
-                  {navItem.title}
+                  <HiOutlineMusicNote />
                 </button>
               </li>
-            ))}
-          </ul>
+            </ul>
+            {/* Sound Control */}
+            <AnimatePresence>
+              {soundControlIsVisible && <SoundControl />}
+            </AnimatePresence>
+          </nav>
 
-          {/* Theme toggler & Sound Level Control */}
-          <ul>
-            {/* <li>
-              <button aria-label="theme toggler">
-                <HiOutlineSun />
-              </button>
-            </li> */}
-            <li>
-              <button
-                className={`sound_control ${soundLevel == 0 && "no-sound"}`}
-                aria-label="sound level control"
-                onMouseEnter={() => updateCursorType("hover")}
-                onMouseLeave={() => updateCursorType("pointer")}
-                onClick={() =>
-                  toggleSoundControlVisibility(!soundControlIsVisible)
-                }
-              >
-                <HiOutlineMusicNote />
-              </button>
-            </li>
-          </ul>
-          {/* Sound Control */}
-          <AnimatePresence>
-            {soundControlIsVisible && <SoundControl />}
-          </AnimatePresence>
-        </nav>
+          {/* Mobile menu */}
+          <MobileNav navList={navList} />
+        </div>
+      </header>
 
-        {/* Mobile menu */}
-        <MobileNav navList={navList} />
-      </div>
-    </header>
+      {/* Footer */}
+      <footer className="footer">
+        {/* <h1>From HarSar</h1> */}
+        <p>©2024 HarSar Innovations. All Rights Reserved</p>
+      </footer>
+    </>
   );
 };
 

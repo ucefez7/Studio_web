@@ -1,17 +1,17 @@
 // Team data
 const teamData = [
   {
-    name: "Ucefez",
+    name: "Harsar Harsha",
     image: "/images/cx.png",
     links: [
       { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
       { title: "github", link: "https://github.com/ucefez7" },
       { title: "twitter", link: "https://t.me/tech_overflow" },
-      { title: "portfolio", link: "https://ucefez7.github.io/Portfolio-Ucefez/" },
+      { title: "portfolio", link: "https://harsarharsha.harsar.in" },
     ],
   },
   {
-    name: "HarSar",
+    name: "Commercial Name",
     image: "/images/zx1.png",
     links: [
       { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
@@ -21,7 +21,7 @@ const teamData = [
     ],
   },
   {
-    name: "Janvi",
+    name: "Crew Name",
     image: "/images/gh.jpg",
     links: [
       { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
@@ -31,7 +31,7 @@ const teamData = [
     ],
   },
   {
-    name: "Harsha",
+    name: "Creative Name",
     image: "/images/zx2.PNG",
     links: [
       { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
@@ -41,13 +41,13 @@ const teamData = [
     ],
   },
   {
-    name: "Adhil",
+    name: "Creator Name",
     image: "/images/zx3.PNG",
-    links: [
-      { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
+    links: [ { title: "linkedin", link: "https://www.linkedin.com/in/yousafali-ea-b05490225/" },
       { title: "github", link: "https://github.com/ucefez7" },
       { title: "twitter", link: "https://t.me/tech_overflow" },
       { title: "portfolio", link: "https://ucefez7.github.io/Portfolio-Ucefez/" },
+     
     ],
   },
 ];

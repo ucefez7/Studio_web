@@ -46,7 +46,7 @@ export function Experience({ ready, soundLevel }) {
 
       <e.group theatreKey="CameraTarget" ref={islandRef} position={[0, 0, 5]} />
 
-      <CustomText3D text="HarSar Innovations" />
+      <CustomText3D text="HarSar Studios" />
 
       <group position={[0, 0, 0]}>
         <RandomClouds amount={1} />

@@ -109,7 +109,7 @@ const SectionDetails = () => {
                   >
                     Next <HiOutlineArrowRight />
                   </button>
-                  <a
+                  {/* <a
                     onMouseEnter={() => updateCursorType("hover")}
                     onMouseLeave={() => updateCursorType("pointer")}
                     target="_blank"
@@ -117,7 +117,7 @@ const SectionDetails = () => {
                     href="https://t.me/tech_overflow"
                   >
                     github repo <HiOutlineArrowRight />
-                  </a>
+                  </a> */}
                 </motion.div>
               </motion.div>
             );
