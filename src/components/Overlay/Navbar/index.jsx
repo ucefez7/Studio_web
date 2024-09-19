@@ -17,8 +17,8 @@ import {
 // Nav list
 const navList = [
   { title: "about", icon: <HiOutlineBookOpen />, position: 0.7 },
-  { title: "board", icon: <HiOutlineUsers />, position: 2.1 },
-  { title: "stack", icon: <HiOutlineChip />, position: 6.7 },
+  { title: "team", icon: <HiOutlineUsers />, position: 2.1 },
+  { title: "board", icon: <HiOutlineChip />, position: 6.7 },
   { title: "portfolio", icon: <HiOutlineDesktopComputer />, position: 7.8 },
   { title: "connect", icon: <HiOutlineCollection />, position: 9 },
 ];
@@ -118,7 +118,7 @@ const Navbar = () => {
       {/* Footer */}
       <footer className="footer">
         {/* <h1>From HarSar</h1> */}
-        <p>©2024 HarSar Innovations. All Rights Reserved</p>
+        <p>©2024 HarSar Studios. All Rights Reserved</p>
       </footer>
     </>
   );
